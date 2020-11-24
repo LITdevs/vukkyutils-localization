@@ -1,0 +1,19 @@
+{
+  "name": "vukkytils",
+  "version": "1.0.0",
+  "description": "A bad library for Vukky projects.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VukkyLtd/vuktils.git"
+  },
+  "author": "Vukky",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VukkyLtd/vuktils/issues"
+  },
+  "homepage": "https://github.com/VukkyLtd/vuktils#readme"
+}
