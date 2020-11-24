@@ -14,7 +14,7 @@ const vukkytils = {
 		if(localString) {
 			return localString;
 		} else {
-			return this.strings["en"][string];
+			return this.strings[this.fallbackLanguage][string];
 		}
 	},
 
