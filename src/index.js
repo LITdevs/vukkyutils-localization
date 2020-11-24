@@ -1,6 +1,6 @@
 const path = require("path");
 
-const vukkytils = {
+const vukkyutils = {
 	strings: {},
 	language: "en",
 	fallbackLanguage: "en",
@@ -38,11 +38,11 @@ const vukkytils = {
 
 	/**
 	 * Sets the fallback language
-	 * @param language - The language that vuktils should fall back to
+	 * @param language - The language that vukkyutils should fall back to
 	 */
 	setFallbackLanguage(language) {
 		this.fallbackLanguage = language;
 	}
 };
 
-module.exports = vukkytils;
+module.exports = vukkyutils;

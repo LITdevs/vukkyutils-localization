@@ -1,5 +1,5 @@
 {
-  "name": "vukkytils",
+  "name": "vukkyutils",
   "version": "1.0.0",
   "description": "A bad library for Vukky projects.",
   "main": "src/index.js",
