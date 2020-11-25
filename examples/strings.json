@@ -1,0 +1,10 @@
+{
+    "en": {
+        "DEBUG_STRING": "Something in English",
+        "NOT_IN_NO": "Something in English"
+    },
+    "no": {
+        "DEBUG_STRING": "Something in Norwegian",
+        "NOT_IN_EN": "Something in Norwegian"
+    }
+}

@@ -1,4 +1,5 @@
 const path = require("path");
+const util = require('util'); 
 
 const vukkyutils = {
 	strings: {},
@@ -6,7 +7,7 @@ const vukkyutils = {
 	fallbackLanguage: "en",
 
 	/**
-	 * Gets a string from strings (loadStrings) in the user's language. Falls back to English if there's no string for the user's language.
+	 * Gets a string from the loaded strings in the set language. Falls back to the fallback language if there's no string for the current language.
 	 * @param {string} string - The string to get
 	 */
 	getString(string) {
@@ -20,7 +21,7 @@ const vukkyutils = {
 
 	/**
 	 * Loads strings
-	 * @param stringPath - The string file to get
+	 * @param stringPath - The string file to load
 	 */
 	loadStrings(stringPath) {
 		const basePath = path.dirname(module.parent.filename);
@@ -29,10 +30,10 @@ const vukkyutils = {
 	},
 
 	/**
-	 * Sets the user language
-	 * @param language - The language that the user's using
+	 * Sets the language to get strings in
+	 * @param language - The language to get strings in
 	 */
-	setUserLanguage(language) {
+	setLanguage(language) {
 		this.language = language;
 	},
 
