@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/VukkyLtd/vuktils.git"
+    "url": "git+https://github.com/VukkyLtd/vukkyutils.git"
   },
   "author": "Vukky",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/VukkyLtd/vuktils/issues"
+    "url": "https://github.com/VukkyLtd/vukkyutils/issues"
   },
-  "homepage": "https://github.com/VukkyLtd/vuktils#readme"
+  "homepage": "https://github.com/VukkyLtd/vukkyutils#readme"
 }
