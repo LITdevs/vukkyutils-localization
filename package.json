@@ -1,6 +1,6 @@
 {
   "name": "vukkyutils",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "A bad library for Vukky projects.",
   "main": "lib/index.js",
   "scripts": {
