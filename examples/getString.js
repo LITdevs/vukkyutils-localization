@@ -1,5 +1,6 @@
-const vukkyutils = require("../src")
+const vukkyutils = require("../lib")
 vukkyutils.loadStrings("strings.json")
+
 console.log("Getting DEBUG_STRING in en")
 vukkyutils.setLanguage("en")
 console.log(`DEBUG_STRING in en is ${vukkyutils.getString("DEBUG_STRING")}`)

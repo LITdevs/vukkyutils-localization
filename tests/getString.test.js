@@ -1,4 +1,4 @@
-const vukkyutils = require("../src")
+const vukkyutils = require("../lib")
 
 test('Loading strings works', () => {
     vukkyutils.loadStrings("../examples/strings.json")
