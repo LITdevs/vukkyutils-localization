@@ -1,5 +1,5 @@
 {
-  "name": "vukkyutils",
+  "name": "@vukkyutils/localization",
   "version": "2.2.0",
   "description": "A bad library for Vukky projects.",
   "main": "lib/index.js",
